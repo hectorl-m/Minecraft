@@ -85,7 +85,7 @@ p {
 }
 
 #info-button:hover {
-    background: url('images/diamond_hover.png') repeat; /* Textura brillante */
+    background: url('images/gold_hover.png') repeat; /* Textura brillante */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
@@ -101,7 +101,7 @@ dialog {
 }
 
 #close-dialog {
-    background: url('images/redstone.png') repeat; /* Textura de redstone */
+    background: url('images/slime.png') repeat; /* Textura de redstone */
     color: white;
     border: none;
     padding: 10px 20px;
