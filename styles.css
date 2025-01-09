@@ -1,0 +1,122 @@
+/* Estilos generales */
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente estilo pixel art */
+    background-color: #87ceeb; /* Cielo azul Minecraft */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado principal */
+#main-header {
+    background: url('images/grass.png') repeat; /* Textura de hierba */
+    color: white;
+    text-shadow: 2px 2px #000;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #3a5f0b;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url('images/wood.png') repeat; /* Textura de madera */
+    border-top: 4px solid #3a5f0b;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background: url('images/stone.png') repeat; /* Textura de piedra */
+    border: 3px solid #3a5f0b; /* Verde oscuro */
+    color: white;
+    text-shadow: 1px 1px #000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Subtítulos y párrafos */
+h2 {
+    font-size: 1.5em;
+    color: #fff200; /* Amarillo oro estilo Minecraft */
+    text-shadow: 2px 2px #000;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Botón */
+#info-button {
+    background: url('images/diamond.png') repeat; /* Textura de diamante */
+    color: white;
+    padding: 15px 20px;
+    border: 3px solid #3a5f0b;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-shadow: 2px 2px #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#info-button:hover {
+    background: url('images/diamond_hover.png') repeat; /* Textura brillante */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Diálogo */
+dialog {
+    border: 5px solid #3a5f0b;
+    padding: 20px;
+    background: url('images/wood_dark.png') repeat; /* Textura de madera oscura */
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+
+#close-dialog {
+    background: url('images/redstone.png') repeat; /* Textura de redstone */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-shadow: 2px 2px #000;
+}
+
+#close-dialog:hover {
+    background: url('images/redstone_hover.png') repeat; /* Brillante */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+}
+
+/* Diferencia entre clases e ID */
+/* 
+   Clase: Ideal para aplicar un estilo a múltiples elementos similares (por ejemplo, los artículos dentro de una sección).
+   ID: Se usa para estilos únicos, como el encabezado principal o el botón interactivo.
+*/
